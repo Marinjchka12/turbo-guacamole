@@ -1,0 +1,49 @@
+.header {
+    background: rgb(0, 132, 255);
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.main {
+    background: rgb(166, 255, 0);
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section_3 {
+    grid-column: 1/3;
+}
+
+.aside {
+    background: rgb(247, 0, 255);
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.footer {
+    background: rgb(83, 80, 80);
+    grid-column: 1/4;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.sec_footer {
+    padding: 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 1fr 20%;
+    width: 95%;
+    height: 90vh;
+}
